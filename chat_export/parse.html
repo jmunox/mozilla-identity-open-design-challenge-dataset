@@ -102,10 +102,10 @@ $(document).ready(function(){
 
         $("button").click(function(){
 
-          download(JSON.stringify(messages), "telegram_export.json", "text/plain");
+        //  download(JSON.stringify(messages), "telegram_export.json", "text/plain");
 
           var width = 800;
-          var height = 800;
+          var height = 850;
           const svg = d3.select("svg");
 
 
@@ -117,7 +117,7 @@ $(document).ready(function(){
             .domain(extent)
             .range([0,width]);
 
-           uniqueNames = messages.map(obj => obj.initials)
+           uniqueNames = messages.map(obj => obj.name)
                                       .filter((v, i, a) => a.indexOf(v) === i);
 
            yScale = d3.scaleOrdinal()
@@ -138,8 +138,8 @@ $(document).ready(function(){
        return count(messages.map(obj => obj.date))[d.date]*3;
     })
   	.attr('cy', function(d) {
-  		return yScale(d.initials);
-        //y => uniqueNames.indexOf(d.initials)
+  		return yScale(d.name);
+        //y => uniqueNames.indexOf(d.name)
       //);
   	})
   	.attr('cx', function(d) {
@@ -152,7 +152,7 @@ $(document).ready(function(){
   		return xScale(d.date);
   	})
   	.y(function(d) {
-  		return yScale(d.initials);
+  		return yScale(d.name);
   	});
 
     var line = lineGenerator(messages);
@@ -172,15 +172,15 @@ $(document).ready(function(){
   // 		return xScale(d.date);
   // 	})
   //   .attr('y', function(d) {
-  //     return yScale(d.initials);
+  //     return yScale(d.name);
   // 	})
   // 	.text(function(d) {
-  // 		return d.date.toDateString();
+  // 		return d.name;
   // 	});
 
-//messages.map(obj => obj.initials)
+//messages.map(obj => obj.name)
 
-var axis = d3.axisTop().scale(xScale)
+var axisX = d3.axisTop().scale(xScale)
       .tickFormat(function(d) {
         return d.toDateString();
       })
@@ -188,8 +188,18 @@ var axis = d3.axisTop().scale(xScale)
 
       d3.select('#x_axis')
       .attr("transform", "translate(0," + height + ")")
-       .call(axis);
-  });
+       .call(axisX);
+
+  var axisY = d3.axisLeft().scale(yScale)
+        .tickFormat(function(d) {
+          return d;
+        })
+        .ticks(7);
+
+        d3.select('#y_axis')
+        .attr("transform", "translate(" + height + ", 0)")
+         .call(axisY);
+    });
 
 });
 </script>
@@ -200,12 +210,14 @@ var axis = d3.axisTop().scale(xScale)
 
 <button>Load Chat Content</button>
 <div>
-  <svg width="1000" height="1000">
+  <svg width="1200" height="1200">
+
    	<g id="wrapper" transform="translate(40, 40)">
+      <g id="x_axis"></g>
+      <g id="y_axis"></g>
       <g id="points"></g>
       <path></path>
-      <g id="x_axis"></g>
-      <g id="y_axis" transform="translate(40, 40)"></g>
+
    	</g>
    </svg>
 </div>

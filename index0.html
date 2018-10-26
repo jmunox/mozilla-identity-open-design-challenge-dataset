@@ -1,63 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+path {
+	fill: none;
+	stroke: #999;
+}
+</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
-var messages = [];
 var uniqueNames = [];
 var yScale;
+var mozillaData;
 $(document).ready(function(){
 
-        //$("#div1").load("chat_export/messages.html .forwarded", function(response, statusTxt, xhr){
-        $.get("chat_export/messages.html", function(response){
-          var rawData = response;
+        $.get("export/ordered_all_mozilla.json", function(response){
+          mozillaData = response;
 
             //if(statusTxt == "success"){
 
 
-              var name = null;
-              var initials = null;
-              var date = null;
-              var text = null;
-              //$(".forwarded").each(function(index){
-              $(rawData).find(".forwarded").each(function(index){
-
-                var fromInitials = $(this).find(".initials").text();
-                if (fromInitials) {
-                  initials = fromInitials.replace(/(\n| )/g,'');
-                }
-
-                var fromName = $(this).find(".from_name")[0];
-                if( fromName) name = fromName.childNodes[0].textContent.replace(/\n/g,'');
-
-                var fromDate = $(this).find(".details").text();
-                if( fromDate ) date = fromDate.substr(1, 19); //.replace(/ /g,'');
-
-                var fromText = $(this).find(".text").html();
-                if (fromText) text = fromText.replace(/\n/g,'');
-
-                if (text){
-
-                  var pattern = /(\d{2})\.(\d{2})\.(\d{4})/;
-                  var dt = new Date(date.replace(pattern,'$3-$2-$1'));
-
-                  messages.push( {
-                    initials: initials,
-                    name: name,
-                    date: dt,
-                    content: text
-                  });
-                  text = null;
-                }
-              });
-              console.log(messages);
+              console.log(mozillaData);
 
 
-
-            //}
-            //if(statusTxt == "error")
-            //    alert("Error: " + xhr.status + ": " + xhr.statusText);
         });
 
         $("button").click(function(){
@@ -68,7 +34,7 @@ $(document).ready(function(){
           const svg = d3.select("svg");
 
 
-          var extent = d3.extent(messages.map(obj => obj.date));
+          var extent = d3.extent(mozillaData.map(obj => obj.date));
 
 
           const xScale = d3.scaleTime()
@@ -76,63 +42,78 @@ $(document).ready(function(){
             .domain(extent)
             .range([0,width]);
 
-           uniqueNames = messages.map(obj => obj.initials)
+           uniqueNames = mozillaData.map(obj => obj.name)
                                       .filter((v, i, a) => a.indexOf(v) === i);
 
            yScale = d3.scaleOrdinal()
               .domain(uniqueNames)
               .range(Array.from({length: uniqueNames.length}, (v, i) => i*20));
 
+              function count(arr) {
+                return arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {})
+              }
 
 
-      var axis = d3.axisTop().scale(xScale)
-          	.tickFormat(function(d) {
-          		return d.toDateString();
-          	})
-          	.ticks(5);
-
-            d3.select('#axis')
-	           .call(axis);
-
-
-
-
-
-    d3.select('#wrapper')
+    d3.select('#points')
   	.selectAll('circle')
-  	.data(messages)
+  	.data(mozillaData)
   	.enter()
   	.append('circle')
-  	.attr('r', 5)
+  	.attr('r', function(d){
+       return count(mozillaData.map(obj => obj.date))[d.date];
+    })
   	.attr('cy', function(d) {
-  		return yScale(d.initials);
-        //y => uniqueNames.indexOf(d.initials)
+  		return yScale(d.name);
+        //y => uniqueNames.indexOf(d.name)
       //);
   	})
   	.attr('cx', function(d) {
   		return xScale(d.date);
   	});
 
-  d3.select('#wrapper')
-  	.selectAll('text')
-  	.data(messages)
-  	.enter()
-  	.append('text')
-  	.attr('x', function(d,i) {
 
+  var lineGenerator = d3.line()
+  	.x(function(d) {
   		return xScale(d.date);
   	})
-    .attr('y', function(d) {
-      return yScale(d.initials);
-        //y => uniqueNames.indexOf(d.initials)
-      //);
-  	})
-  	.text(function(d) {
-  		return d.date.toDateString();
+  	.y(function(d) {
+  		return yScale(d.name);
   	});
+
+    var line = lineGenerator(mozillaData);
+
+    d3.select('path')
+    .attr('d', line);
+
+
+
+  // d3.select('#points')
+  // 	.selectAll('text')
+  // 	.data(messages)
+  // 	.enter()
+  // 	.append('text')
+  // 	.attr('x', function(d,i) {
+  //
+  // 		return xScale(d.date);
+  // 	})
+  //   .attr('y', function(d) {
+  //     return yScale(d.initials);
+  // 	})
+  // 	.text(function(d) {
+  // 		return d.date.toDateString();
+  // 	});
 
 //messages.map(obj => obj.initials)
 
+var axis = d3.axisTop().scale(xScale)
+      .tickFormat(function(d) {
+        return d.toDateString();
+      })
+      .ticks(7);
+
+      d3.select('#x_axis')
+      .attr("transform", "translate(0," + height + ")")
+       .call(axis);
   });
 
 });
@@ -144,11 +125,12 @@ $(document).ready(function(){
 
 <button>Load Chat Content</button>
 <div>
-  <svg width="1500" height="1000">
+  <svg width="1000" height="1000">
    	<g id="wrapper" transform="translate(40, 40)">
-      <g id="axis" transform="translate(40, 40)"></g>
-      <g class="points"></g>
-			<circle class="halo" r="7"></circle>
+      <g id="points"></g>
+      <path></path>
+      <g id="x_axis"></g>
+      <g id="y_axis" transform="translate(40, 40)"></g>
    	</g>
    </svg>
 </div>
