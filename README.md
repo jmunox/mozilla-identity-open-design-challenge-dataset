@@ -10,8 +10,6 @@ This repository contains a simple node project that gets started through "npm st
 
 I am still working on the visualization of the flow of interactions.
 
-Example of a ![Simple visualization of the interactions](visualization_interactions_mozilla_design_process.png)
-
 #### File structure.
 
 The folder '[/export](https://github.com/jmunox/mozilla-identity-open-design-challenge/tree/master/export)' contains the .json files with parsed data (either).
@@ -28,3 +26,7 @@ I identified that several people that were involved in the process were present 
 - The dates of the comments in medium posts do not include hours and minutes, so I still want to process them and add a date/timestamp at least one minute later of the medium post, so that they appear after the main post that triggered the discussion.
 - Experiment on the visualization of the interactions and connections between people, endpoints and the type of data that they share.
 - I am thinking of conducting interviews to build something like story engine and ask the main people involved to reflect on the process with the help of the visualizations.
+
+### Visualization:
+
+Example of the visualization: ![Simple visualization of the interactions](visualization_interactions_mozilla_design_process.png)
