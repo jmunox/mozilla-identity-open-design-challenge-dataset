@@ -10,7 +10,7 @@ This repository contains a simple node project that gets started through "npm st
 
 I am still working on the visualization of the flow of interactions.
 
-Example of a ![Simple visualization of the interactions](/images/2018/10/visualization_interactions_mozilla_design_process.png)
+Example of a ![Simple visualization of the interactions](blob/master/visualization_interactions_mozilla_design_process.png)
 
 #### File structure.
 
