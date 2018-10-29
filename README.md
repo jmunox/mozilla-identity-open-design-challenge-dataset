@@ -10,7 +10,7 @@ This repository contains a simple node project that gets started through "npm st
 
 I am still working on the visualization of the flow of interactions.
 
-![Simple visualization of the interactions](/images/2018/10/visualization_interactions_mozilla_design_process.png)
+Example of a ![Simple visualization of the interactions](/images/2018/10/visualization_interactions_mozilla_design_process.png)
 
 #### File structure.
 
@@ -22,7 +22,7 @@ The folder '[/export](https://github.com/jmunox/mozilla-identity-open-design-cha
 
 
 #### Work done
-I identified that several people that were involved in the process were present in different platforms, so I matched their names and normalized them, so that I can visualize them as the same person.
+I identified that several people that were involved in the process were present in different platforms (eg. Telegram, github, discourse), so I matched their names to visualize them as the same person.
 
 #### Work to be done.
 - The dates of the comments in medium posts do not include hours and minutes, so I still want to process them and add a date/timestamp at least one minute later of the medium post, so that they appear after the main post that triggered the discussion.
