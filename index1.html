@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+var uniqueSources = [];
+var yScale, xScale;
+var mozillaData =[];
+$(document).ready(function(){
+
+        $.get("export/ordered_all_mozilla.json", function(response){
+          mozillaData = response;
+
+            //if(statusTxt == "success"){
+
+
+
+              console.log(mozillaData);
+
+
+
+            //}
+            //if(statusTxt == "error")
+            //    alert("Error: " + xhr.status + ": " + xhr.statusText);
+        });
+
+        $("button").click(function(){
+
+          var width = 900;
+          var height = 1000;
+
+
+
+          var extent = d3.extent(mozillaData.map(obj => new Date(obj.date)));
+
+
+          xScale = d3.scaleTime()
+            //.domain([new Date(mozillaData[0].date), new Date(mozillaData[length].date )])
+            .domain(extent)
+            .range([0,width]);
+
+           uniqueSources = mozillaData.map(obj => obj.source)
+                                      .filter((v, i, a) => a.indexOf(v) === i);
+
+           yScale = d3.scaleOrdinal()
+              .domain(uniqueSources)
+              .range(Array.from({length: uniqueSources.length}, (v, i) => i*20));
+
+              function count(arr) {
+                return arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {})
+              }
+      d3.select("svg").attr('height', uniqueSources.length*22);
+
+
+    d3.select('#points')
+  	.selectAll('circle')
+  	.data(mozillaData)
+  	.enter()
+  	.append('circle')
+  	.attr('r', function(d){
+       return 2;//count(mozillaData.map(obj => obj.date))[d.date]*3;
+    })
+  	.attr('cy', function(d) {
+  		return yScale(d.source);
+        //y => uniqueNames.indexOf(d.name)
+      //);
+  	})
+  	.attr('cx', function(d) {
+  		return xScale(new Date(d.date));
+  	});
+
+
+  // var lineGenerator = d3.line()
+  // 	.x(function(d) {
+  // 		return xScale(new Date(d.date));
+  // 	})
+  // 	.y(function(d) {
+  // 		return yScale(d.name);
+  // 	});
+  //
+  //   var line = lineGenerator(mozillaData);
+  //
+  //   d3.select('path')
+  //   .attr('d', line);
+
+
+
+  // d3.select('#points')
+  // 	.selectAll('text')
+  // 	.data(mozillaData)
+  // 	.enter()
+  // 	.append('text')
+  // 	.attr('x', function(d,i) {
+  //
+  // 		return xScale(d.date);
+  // 	})
+  //   .attr('y', function(d) {
+  //     return yScale(d.name);
+  // 	})
+  // 	.text(function(d) {
+  // 		return d.name;
+  // 	});
+
+//mozillaData.map(obj => obj.name)
+
+var axisX = d3.axisTop().scale(xScale)
+      .tickFormat(function(d) {
+        return d.toDateString();
+      })
+      .ticks(7);
+
+      d3.select('#x_axis')
+      .attr("transform", "translate(0, -10)")
+       .call(axisX);
+
+  var axisY = d3.axisRight().scale(yScale)
+        .tickFormat(function(d) {
+          return d;
+        })
+        .ticks(1);
+
+        d3.select('#y_axis')
+        .attr("transform", "translate(" + width + ", 0)")
+         .call(axisY);
+    });
+
+});
+</script>
+</head>
+<body>
+
+<div id="div1">Mozilla New Identity Design Challenge</div>
+
+<button>Load Chart Content</button>
+<div>
+  <svg width="1200" height="4000">
+
+   	<g id="wrapper" transform="translate(40, 40)">
+      <g id="x_axis"></g>
+      <g id="y_axis"></g>
+      <g id="points"></g>
+      <path></path>
+
+   	</g>
+   </svg>
+</div>
+</body>
+</html>
