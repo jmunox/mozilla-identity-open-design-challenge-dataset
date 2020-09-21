@@ -1,1 +1,289 @@
-[{"name":"Michael Johnson","date":"2016-09-16T00:03:01.000Z","content":"    <p>Protocol is a strong contender from the first round of ideas that we’ve continued to work on and improve. By putting the internet http:// protocol directly into the word – Moz://a – it creates a type-able word mark, and by doing so alludes to Mozilla’s role at the core of the Internet (and hence the ‘Pioneers’ positioning).</p><p>We’ve been strengthening the typography from the first round and looking at ways to expand the graphic language out across a typographic and pictogram language. We’ve also enhanced the blue to reflect the palette of the early Web. Here’s an early exploration:</p><p><img class=\"alignleft size-large wp-image-448\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla_Protocol_type_investigation-1024x724.jpg\" alt=\"mj_tm_Moz_Nashville_edits for new pics.key\" width=\"1024\" height=\"724\"></p><p>We’re also experimenting with a thought that some of the characters in the mark could swap in and out, randomly, pulling fonts characters or emoticons from a local computer or the web itself. A freaky thought, but could be great.</p><p><img class=\"alignleft size-full wp-image-465\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/Protocol_master_logo_2.gif\" alt=\"protocol_master_logo_2\" width=\"1920\" height=\"1080\"></p><p>&nbsp;</p><p><img class=\"alignleft size-full wp-image-446\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/Protocol_type_swap.gif\" alt=\"protocol_type_swap\" width=\"2362\" height=\"1181\"></p><p><img class=\"alignleft size-large wp-image-454\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_3-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_3\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-453\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_4-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_4\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-452\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_5-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_5\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-451\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_6-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_6\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-450\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_7-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_7\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-449\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_8-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_8\" width=\"1024\" height=\"724\"></p><p><iframe src=\"https://player.vimeo.com/video/182848584?loop=1&amp;title=0&amp;byline=0&amp;portrait=0\" width=\"820\" height=\"461\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>      ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Josh Triplett","date":"2016-09-15T00:00:00.000Z","content":"       <p>This is even better with the thorough design treatment and variations.  And the typeable nature also makes it *open* in a way that none of the others are: anyone who can type can recreate it to some degree of approximation, which makes it easy to recreate in HTML and CSS, or many other treatments.  That allows numerous variations on a theme.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Gervase Markham","date":"2016-09-16T00:00:00.000Z","content":"       <p>There seems some, but not very much, recognition that protocol names are always lower-case. You are going to irritate a lot of geeks if you go with a capital M :-) Fortunately, I really don’t think the capital is necessary for the design.</p> <p>I also like variants where the slashes are a bit more vertical than the standard typography of most fonts; making it look more like a word will still keeping that protocol vibe.</p> <p>Is there a reason we couldn’t at least see what this looks like with the existing font for the mozilla wordmark? If it looks OK, that would be a great way of keeping some continuity while evolving the look.</p> <p>Gerv</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Scott Hays","date":"2016-09-22T00:00:00.000Z","content":"       <p>I believe in this instance you can get away with the capital M, and I believe it is better served to use it here in order to establish it as a brand and make it more readable. With the “://” mark, you need something to increase readability.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Alex","date":"2016-09-23T00:00:00.000Z","content":"       <p>The capital M reminds me of BASIC … Back in time when geeks were uncool :) …<br> <a href=\"https://en.wikipedia.org/wiki/BASIC\" rel=\"nofollow\">https://en.wikipedia.org/wiki/BASIC</a></p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Chris H-C","date":"2016-09-16T00:00:00.000Z","content":"       <p>Better than the original protocol treatment. I like the serifs and the blue! I, too, like that it can be typed.</p> <p>It puts a heavy emphasis on the technology, specifically Web-tech, aspects of Mozilla’s mission. This is both good and bad, and I can only assume it’s a deliberate choice.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Adam Roach","date":"2016-09-16T00:00:00.000Z","content":"       <p>I find this direction to be too overtly nerdy for Mozilla’s mission, at least as long as Firefox is front-and-center as bringing the Internet to the masses.</p> <p>This logo ties what we’re doing to a technical underpinning that, frankly, most of Firefox’s users aren’t going to understand or care about. It’s kind of the opposite of inclusiveness: it’s a call out to our small slice of tech-savvy followers, to the exclusion of the majority of our user base.</p> <p>I’ll also point out that we find protocol schemes to be sufficiently ugly that we hide them from users by default. It would seem kind of odd to take something we’ve decided is worth hiding in normal use and center our brand around it.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Tim Murray (@Timotay)","date":"2016-09-16T00:00:00.000Z","content":"       <p>Thanks for raising this concern, Adam, which has been voiced by others as well. Although the Internet’s largest corporate players have made it unnecessary to use  “https://” to find a website through a search window, and have hidden this language from view using bit.ly and the like, the link is the critical language by which anyone can find anything online. (Please forgive my lack of technical language here.) Where many corporate entities would prefer that people remain in their proprietary silos, we believe that users of the Internet should be able to go wherever they want. The URL is still the primary unit of the Internet, and using this language in our brand identity might demonstrate how important we think inter-connectness still is. What do you think?</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Patrick Finch","date":"2016-09-16T00:00:00.000Z","content":"       <p>I agree with Adam. “https://” is an historical artifact for most people (most browsers on mobile devices already suppress it in displaying a URL). This path seems to lead us to having a visual identity less well adapted to the current world than our existing one. It certainly isn’t suggestive of being forward-looking, or of caring about users’ experience, or as Adam points out, of being inclusive. I worry that we find the visual joke so appealing that we lose sight of what it actually conveys.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"liuche","date":"2016-09-27T00:00:00.000Z","content":"       <p>I also agree with both Patrick and Adam – Mozilla is currently tied very tightly to its browser product, Firefox, but Mozilla actually stands for privacy and security and user choice and openness of the web. If you talk to the product and UX teams at Mozilla, or the leadership, it should be pretty clear that this branding would actually be a regression in the direction that Mozilla is trying to move.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Michael Comella","date":"2016-09-27T00:00:00.000Z","content":"       <p>Will we have the opportunity to put the branding in front of non-technical users to see how they feel about it? I think this form of feedback could reduce concerns while avoiding speculation. :) Specifically, like Adam, I’m also concerned that being too technical could alienate our user base.</p> <p>—<br> To take a step back:</p> <p>“the link is the critical language by which anyone can find anything online.”</p> <p>This is true – but will it always be? I believe the URL wasn’t designed with user friendliness in mind. If we designed a user-friendly solution to navigating the web, will the URL become a technical detail like IP addresses today?</p> <p>“Although the Internet’s largest corporate players have made it unnecessary to use “https://” to find a website through a search window,”</p> <p>Many users have already replaced URLs with a(n accidentally) more user-friendly option: search (even for simple URLs like facebook).</p> <p>If we incorporate a protocol into our branding today, will it feel like representing “Save” with a floppy disk tomorrow?</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Tim Murray (@Timotay)","date":"2016-09-27T00:00:00.000Z","content":"       <p>Thanks for the perceptive questions, Michael. These are important things to consider with regard to Protocol, and trends are notoriously hard to predict (or to shape). We will be putting these four design directions with some modifications through global consumer testing this week in five markets, directed at the target audience for Mozilla that we identified earlier this year. We’ll also be circulating a survey to Mozillians and through the Mozilla Developer Network. Respondents will be asked to rate individual designs against brand attributes for Mozilla. Analysis and cross-comparison of these surveys will provide further data that will likely influence our recommendation for a final route. We’ll post a summary of the results on the blog. Thanks again.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Gabriela Owens","date":"2016-09-16T00:00:00.000Z","content":"       <p>I’m not a huge fan of how the word highlights dip or rise in height (Pioneers, ideals, start) to match the lettering, I think a uniform highlight would look much better</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Paul Nilrach","date":"2016-09-17T00:00:00.000Z","content":"       <p>I was thinking the exact same thing.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Paul Tincknell","date":"2016-09-21T00:00:00.000Z","content":"       <p>I agree entirely. I also agree with a previous commentator that the capital “M” is unnecessary. And finally, I think one font-family should be used, not the mix of serif and sans-serif. I personally would vote for sans-serif, as it is more contemporary, easy to read, better when bold, and is what most of the web defaults to. So: moz://a. Shorter versions should refer to the :// as in m:// or moz://.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Wil Clouser","date":"2016-09-16T00:00:00.000Z","content":"       <p>I liked this idea too, but I can’t help but remember that we (and all major browsers) dropped the protocol from the URL bar in 2011.  The protocol is becoming more and more obscure making this seem more like a throwback than a leap forward (similar to how our dino-head logo is viewed today).</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Rabimba","date":"2016-09-16T00:00:00.000Z","content":"       <p>I was just thinking this, even though I liked the idea</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Tanzeel Khan","date":"2016-09-17T00:00:00.000Z","content":"       <p>This one is better than others in the list. Its simple and it itself defines what is all about. One thing that I didn’t like is the color. I know the color represents technology but I feel like there is something missing, may be typography or something. :)</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Jess","date":"2016-09-17T00:00:00.000Z","content":"       <p>This one is my favourite as a wordmark, but when but when you start to integrate it with Mozilla projects (Maker Party, MozFest) it does get a bit confusing.    </p> <p>For wordmark I prefer Protocol, but for overall branding I think Dino is the most coherent.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Cameron L.","date":"2016-09-21T00:00:00.000Z","content":"       <p>Agreed.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Moz://a","date":"2016-09-19T00:00:00.000Z","content":"       <p>I find this one is awesome! It is simple, easily understandable and a bit “geeky” ! Keep up the good work ;)</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Joel Richardson","date":"2016-09-19T00:00:00.000Z","content":"       <p>This direction is exciting. It’s energetic, youthful, nods to the past, and is a fresh take on Modernism. This direction does what it claims to do. The emoji may need some more work, but they’re still an awesome part of the direction.</p> <p>As far as the “we dropped the protocol from the URL bar” argument, this is a point that is more relevant for developers than the public at large. It’s a somewhat esoteric observation. Even if you were to accept the notion that kids in 5+ years won’t have any idea what that is referencing, the treatment still effective. The effect is not so much that it appropriates the protocol as it appropriates coding languages and web specific type treatments in general (that’s why the emoji work). I think that more and more kids will be learning coding as time goes on, and this reference will not be lost on them.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Nora Zimerman","date":"2016-09-20T00:00:00.000Z","content":"       <p>I’d tend to agree with Joel here. For the non-developer public (like me) this is a simple, obvious, fun solution. I says what it is without complications.<br> love it!</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Potch","date":"2016-09-19T00:00:00.000Z","content":"       <p>The block outline on the lettering really makes this for me. That said, it’s very opaque for people who aren’t familiar with the “protocol” symbolism, and lots of browsers are moving away from even showing the protocol portion of the URL!</p> <p>It appeals to me as tech geek, and typing “Moz://a” is fun, but it might be inaccessible to people who care about our organization for non-technical reasons (think advocacy, etc.)</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Aaron","date":"2016-09-19T00:00:00.000Z","content":"       <p>This is my second favorite. Probably even more so than the Dino. I think it just needs some refinement on the type. The “://” part of the wordmark should probably match the width of the rest of the mark, making it more cohesive. I feel like the emoticons is a great idea on the applications and should be used more, maybe even introducing some code lingo into applications too. Good stuff guys</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Brad Werth","date":"2016-09-19T00:00:00.000Z","content":"       <p>To me, this doesn’t seem to solve the problems of our current wordmark. I’m not a fan. If we do go with this, and want our customers to resonate the logo to the protocol in the browser bar, then it feels to me that we should use the same font that’s used in the browser to cement that connection.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Stephen Nixon","date":"2016-09-20T00:00:00.000Z","content":"       <p>===<br> Possible CSS bug: for me, the  containing the gif of letters swapping out has a height of 0 once the page loads, making it disappear. This happens for me in both Firefox and Chrome, which is a bummer, as it is one of my favorite aspects of this route. Maybe it’s a small glitch in your CSS? I think maybe a clearfix or something could help it? (screenshot attached)<br> ===</p> <p>I LOVE THIS. Flexible, just clever enough (but not too clever), looks dignified yet quirky. </p> <p>I think maybe it would be stronger if the color palette were limited just a tad … things start to look a little less bold and unified when secondary and tertiary colors are used, like magenta, cyan, and lavender. </p> <p>Somehow, the Lubalin type looks fresh and exciting to me in the wordmark but starts to feel a little more dated in the light use on merch, etc. Maybe it would be good to limit Lubalin to the wordmark, and use something like Fira for brand applications? After all, Lubalin won’t work well on web interfaces, and especially not in a light weight.</p> <p>Overall, I was excited enough seeing this that I had to leave a comment. Excited to see where it goes from here!</p> <div class=\"comment-image-box\"> <p class=\"comment-image-reloaded\"><a class=\"cir-image-link image-id-476\" href=\"https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/ScreenShot2016-09-20at8.48.21AM.png\"><img width=\"600\" height=\"410\" src=\"https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/ScreenShot2016-09-20at8.48.21AM-600x410.png\" class=\"attachment-baseline-mini-grid-thumb size-baseline-mini-grid-thumb\" alt=\"ScreenShot2016-09-20at8.48.21AM\" sizes=\"(max-width: 768px) 600px, (max-width: 1000px) 160px, 300px\"></a></p> </div>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"joe mama besser","date":"2016-09-20T00:00:00.000Z","content":"       <p>definitely the designer’s ‘aha!’ moment direction –&nbsp;and certainly very clever, but not yet visually resolved to be the basis of an identity system.<br> one interesting play could be to pull the :// asset out, rotate it 90° clockwise and use it as the god-dino-zilla character&nbsp;–&nbsp;colon is the eyes, slashes are the mouth. you’re welcome.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Steve Fink","date":"2016-09-20T00:00:00.000Z","content":"       <p>I generally like it. I think it’s a bit too uneven and would prefer a simpler font. I like the font changing goofiness. I dislike a plain “M:” as a short form; it does not suggests a connection to Mozilla (or the Web or anything else.)</p> <p>The fact that protocols’ visibility is declining doesn’t particularly bother me. It just means we’re associated with the unseen stuff that comprises the Web. And even if you’re someone who has never seen a protocol in a URI, there’s obviously *something* distinctive going on there, and that’s enough even if you don’t bother to find out what it is.</p> <p>I just wish it had a little more flash to it, like the flame.</p> <p>And given the “zilla” part of our name, I do kind of miss a tie-in to dinosaurs. (At least, the strength/dominance characteristics of dinosaurs.) But that’d be too much to pile into one thing, I suspect.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"stephanie","date":"2016-09-21T00:00:00.000Z","content":"       <p>definitely the best route – the others have no where near as much appeal….speaking from an outsiders perspective. It’s grown up but fun and relatable</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Enrico","date":"2016-09-21T00:00:00.000Z","content":"       <p>Protocol was my favourite from the first batch, and now it looks even better.</p> <p>I like the font choice: it’s most appropriate as a “protocol”. It’s a pity Fira doesn’t work that well, but I guess there’s not much to do about it…</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Martha","date":"2016-09-22T00:00:00.000Z","content":"       <p>I’m coming to this discussion late, but the fact that an web company’s logo is type-able is pure genius. I think the flexibility and relevance of this concept makes it the winner. Maybe M: could turn into a new protocol? Or at least some kind of viral marketing campaign.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Sebastian","date":"2016-09-23T00:00:00.000Z","content":"       <p>Still like Moz://a best. :) Makes me happy every time I can just type it down. I must say I almost liked the first iteration better. The gaudy colours are not my taste I must say. The uneven border takes some getting used to but I think it could work.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Jack","date":"2016-09-24T00:00:00.000Z","content":"       <p>This looks like a cool design. Simple and elegant. However, I would prefer lowercase M over the uppercase.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"alex b","date":"2016-09-24T00:00:00.000Z","content":"       <p>Hi, I think this route is the best, as it makes sense (with Internet). The fact that Moz://a is type-able is fun, but potentially confusing – how do we actually write it? Think of people that were not exposed to the brand. Apart from this problem, the logo is perfect, and the problem can be mitigated by NOT writing the name in this form ever, in text. Just use the logo in graphical form, and write the name normally in any text reference. </p> <p>Regarding the colors – the logo should use only one color – as brand color (think Coca Cola is red, Hertz is orange, IBM is blue). The color choice should be based on brand differentiation (not taste, some psychological association etc.) – use the color that’s not used by your competitors – just map them on a color wheel and choose from what’s left. Explorer (and Safari) are blue, so bye-bye blue. Chrome is rainbow, but you see red first (and Opera is red) so no red, too. But Firefox is orange, and orange is not used by anyone, so… keep the orange!</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Paal Dracup","date":"2016-09-25T00:00:00.000Z","content":"       <p>In my opinion, by far the better choice. It’s versatile and easily recreated in text form for those who should want to type it out. Brilliant; I like it a lot!</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Gonzalo Burnfield","date":"2016-09-26T00:00:00.000Z","content":"       <p>I think this is the best one, but I don’t like the typography, it’s just looks old, I liked more the original protocol.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Seburo","date":"2016-09-28T00:00:00.000Z","content":"       <p>Hi</p> <p>I love this concept! </p> <p>Its quirky, fun and flexible.  The colour palette feels bold, but also very clam.  Undecided whether I prefer the previous iteration of this one, I think that they both work well.</p> <p>The only (small) change I would make the statement text, it is too thin.  Whilst the statements may be bold, the typeface needs to be for people to easily read them.</p> <p>This is still my preferred option.  Keep up the great work.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"André Jaenisch (@Ryuno-Ki)","date":"2016-09-29T00:00:00.000Z","content":"       <p>I’m not a designer, so an update about the openness of the used font would be appreciated.</p> <p>As alex b stated in <a href=\"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/#comment-2790\" rel=\"nofollow\">https://blog.mozilla.org/opendesign/route-one-protocol-2-0/#comment-2790</a> I’d welcome a suggestion with an other colour. I enjoy orange :-) Maybe reddish or browny.</p> <p>Lubalin looks too angular/edge to me. I’d prefer graphik super I think. The trailing “a” does not point outwards the wordmark … Its “o” looks like a donut though …</p> <p>This one is my favourite. In opposite to Dino 2.0 I can imagine it is applicable on different use cases: On websites, as FavIcon (which is, what many people will see of a website these days), on shirts and cups.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"Robert Kaiser","date":"2016-09-29T00:00:00.000Z","content":"       <p>This is clearly the #2 design for me (after the dino). I think even non-technical users will understand what it alludes to even if they don’t have to type those “weird” protocols usually – and it speaks to web literacy.</p> <p>The typeface(s) and color(s) IMHO still need work, I don’t think that the intense blue is a “Mozilla color”, but esp. the static outline with changing fonts and similar concepts sounds like an interesting path to follow.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"},{"name":"amanda","date":"2016-10-04T00:00:00.000Z","content":"       <p>Love it! It is own-able, iconic and relevant. Easily understood, bold and simple.</p>     ","event_type":"Mozilla Blog","source":"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"}]
+[
+  {
+    "name": "Michael Johnson",
+    "date": "2016-09-16T00:03:01.000Z",
+    "content": "    <p>Protocol is a strong contender from the first round of ideas that we’ve continued to work on and improve. By putting the internet http:// protocol directly into the word – Moz://a – it creates a type-able word mark, and by doing so alludes to Mozilla’s role at the core of the Internet (and hence the ‘Pioneers’ positioning).</p><p>We’ve been strengthening the typography from the first round and looking at ways to expand the graphic language out across a typographic and pictogram language. We’ve also enhanced the blue to reflect the palette of the early Web. Here’s an early exploration:</p><p><img class=\"alignleft size-large wp-image-448\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla_Protocol_type_investigation-1024x724.jpg\" alt=\"mj_tm_Moz_Nashville_edits for new pics.key\" width=\"1024\" height=\"724\"></p><p>We’re also experimenting with a thought that some of the characters in the mark could swap in and out, randomly, pulling fonts characters or emoticons from a local computer or the web itself. A freaky thought, but could be great.</p><p><img class=\"alignleft size-full wp-image-465\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/Protocol_master_logo_2.gif\" alt=\"protocol_master_logo_2\" width=\"1920\" height=\"1080\"></p><p>&nbsp;</p><p><img class=\"alignleft size-full wp-image-446\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/Protocol_type_swap.gif\" alt=\"protocol_type_swap\" width=\"2362\" height=\"1181\"></p><p><img class=\"alignleft size-large wp-image-454\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_3-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_3\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-453\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_4-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_4\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-452\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_5-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_5\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-451\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_6-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_6\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-450\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_7-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_7\" width=\"1024\" height=\"724\"><img class=\"alignleft size-large wp-image-449\" src=\"http://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/jb_Mozilla-sept_C_protocol_8-1024x724.jpg\" alt=\"jb_mozilla-sept_c_protocol_8\" width=\"1024\" height=\"724\"></p><p><iframe src=\"https://player.vimeo.com/video/182848584?loop=1&amp;title=0&amp;byline=0&amp;portrait=0\" width=\"820\" height=\"461\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></p>      ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Josh Triplett",
+    "date": "2016-09-15T00:00:00.000Z",
+    "content": "       <p>This is even better with the thorough design treatment and variations.  And the typeable nature also makes it *open* in a way that none of the others are: anyone who can type can recreate it to some degree of approximation, which makes it easy to recreate in HTML and CSS, or many other treatments.  That allows numerous variations on a theme.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Gervase Markham",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>There seems some, but not very much, recognition that protocol names are always lower-case. You are going to irritate a lot of geeks if you go with a capital M :-) Fortunately, I really don’t think the capital is necessary for the design.</p> <p>I also like variants where the slashes are a bit more vertical than the standard typography of most fonts; making it look more like a word will still keeping that protocol vibe.</p> <p>Is there a reason we couldn’t at least see what this looks like with the existing font for the mozilla wordmark? If it looks OK, that would be a great way of keeping some continuity while evolving the look.</p> <p>Gerv</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Scott Hays",
+    "date": "2016-09-22T00:00:00.000Z",
+    "content": "       <p>I believe in this instance you can get away with the capital M, and I believe it is better served to use it here in order to establish it as a brand and make it more readable. With the “://” mark, you need something to increase readability.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Alex",
+    "date": "2016-09-23T00:00:00.000Z",
+    "content": "       <p>The capital M reminds me of BASIC … Back in time when geeks were uncool :) …<br> <a href=\"https://en.wikipedia.org/wiki/BASIC\" rel=\"nofollow\">https://en.wikipedia.org/wiki/BASIC</a></p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Chris H-C",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>Better than the original protocol treatment. I like the serifs and the blue! I, too, like that it can be typed.</p> <p>It puts a heavy emphasis on the technology, specifically Web-tech, aspects of Mozilla’s mission. This is both good and bad, and I can only assume it’s a deliberate choice.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Adam Roach",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>I find this direction to be too overtly nerdy for Mozilla’s mission, at least as long as Firefox is front-and-center as bringing the Internet to the masses.</p> <p>This logo ties what we’re doing to a technical underpinning that, frankly, most of Firefox’s users aren’t going to understand or care about. It’s kind of the opposite of inclusiveness: it’s a call out to our small slice of tech-savvy followers, to the exclusion of the majority of our user base.</p> <p>I’ll also point out that we find protocol schemes to be sufficiently ugly that we hide them from users by default. It would seem kind of odd to take something we’ve decided is worth hiding in normal use and center our brand around it.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Tim Murray (@Timotay)",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>Thanks for raising this concern, Adam, which has been voiced by others as well. Although the Internet’s largest corporate players have made it unnecessary to use  “https://” to find a website through a search window, and have hidden this language from view using bit.ly and the like, the link is the critical language by which anyone can find anything online. (Please forgive my lack of technical language here.) Where many corporate entities would prefer that people remain in their proprietary silos, we believe that users of the Internet should be able to go wherever they want. The URL is still the primary unit of the Internet, and using this language in our brand identity might demonstrate how important we think inter-connectness still is. What do you think?</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Patrick Finch",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>I agree with Adam. “https://” is an historical artifact for most people (most browsers on mobile devices already suppress it in displaying a URL). This path seems to lead us to having a visual identity less well adapted to the current world than our existing one. It certainly isn’t suggestive of being forward-looking, or of caring about users’ experience, or as Adam points out, of being inclusive. I worry that we find the visual joke so appealing that we lose sight of what it actually conveys.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "liuche",
+    "date": "2016-09-27T00:00:00.000Z",
+    "content": "       <p>I also agree with both Patrick and Adam – Mozilla is currently tied very tightly to its browser product, Firefox, but Mozilla actually stands for privacy and security and user choice and openness of the web. If you talk to the product and UX teams at Mozilla, or the leadership, it should be pretty clear that this branding would actually be a regression in the direction that Mozilla is trying to move.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Michael Comella",
+    "date": "2016-09-27T00:00:00.000Z",
+    "content": "       <p>Will we have the opportunity to put the branding in front of non-technical users to see how they feel about it? I think this form of feedback could reduce concerns while avoiding speculation. :) Specifically, like Adam, I’m also concerned that being too technical could alienate our user base.</p> <p>—<br> To take a step back:</p> <p>“the link is the critical language by which anyone can find anything online.”</p> <p>This is true – but will it always be? I believe the URL wasn’t designed with user friendliness in mind. If we designed a user-friendly solution to navigating the web, will the URL become a technical detail like IP addresses today?</p> <p>“Although the Internet’s largest corporate players have made it unnecessary to use “https://” to find a website through a search window,”</p> <p>Many users have already replaced URLs with a(n accidentally) more user-friendly option: search (even for simple URLs like facebook).</p> <p>If we incorporate a protocol into our branding today, will it feel like representing “Save” with a floppy disk tomorrow?</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Tim Murray (@Timotay)",
+    "date": "2016-09-27T00:00:00.000Z",
+    "content": "       <p>Thanks for the perceptive questions, Michael. These are important things to consider with regard to Protocol, and trends are notoriously hard to predict (or to shape). We will be putting these four design directions with some modifications through global consumer testing this week in five markets, directed at the target audience for Mozilla that we identified earlier this year. We’ll also be circulating a survey to Mozillians and through the Mozilla Developer Network. Respondents will be asked to rate individual designs against brand attributes for Mozilla. Analysis and cross-comparison of these surveys will provide further data that will likely influence our recommendation for a final route. We’ll post a summary of the results on the blog. Thanks again.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Gabriela Owens",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>I’m not a huge fan of how the word highlights dip or rise in height (Pioneers, ideals, start) to match the lettering, I think a uniform highlight would look much better</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Paul Nilrach",
+    "date": "2016-09-17T00:00:00.000Z",
+    "content": "       <p>I was thinking the exact same thing.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Paul Tincknell",
+    "date": "2016-09-21T00:00:00.000Z",
+    "content": "       <p>I agree entirely. I also agree with a previous commentator that the capital “M” is unnecessary. And finally, I think one font-family should be used, not the mix of serif and sans-serif. I personally would vote for sans-serif, as it is more contemporary, easy to read, better when bold, and is what most of the web defaults to. So: moz://a. Shorter versions should refer to the :// as in m:// or moz://.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Wil Clouser",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>I liked this idea too, but I can’t help but remember that we (and all major browsers) dropped the protocol from the URL bar in 2011.  The protocol is becoming more and more obscure making this seem more like a throwback than a leap forward (similar to how our dino-head logo is viewed today).</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Rabimba",
+    "date": "2016-09-16T00:00:00.000Z",
+    "content": "       <p>I was just thinking this, even though I liked the idea</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Tanzeel Khan",
+    "date": "2016-09-17T00:00:00.000Z",
+    "content": "       <p>This one is better than others in the list. Its simple and it itself defines what is all about. One thing that I didn’t like is the color. I know the color represents technology but I feel like there is something missing, may be typography or something. :)</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Jess",
+    "date": "2016-09-17T00:00:00.000Z",
+    "content": "       <p>This one is my favourite as a wordmark, but when but when you start to integrate it with Mozilla projects (Maker Party, MozFest) it does get a bit confusing.    </p> <p>For wordmark I prefer Protocol, but for overall branding I think Dino is the most coherent.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Cameron L.",
+    "date": "2016-09-21T00:00:00.000Z",
+    "content": "       <p>Agreed.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Moz://a",
+    "date": "2016-09-19T00:00:00.000Z",
+    "content": "       <p>I find this one is awesome! It is simple, easily understandable and a bit “geeky” ! Keep up the good work ;)</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Joel Richardson",
+    "date": "2016-09-19T00:00:00.000Z",
+    "content": "       <p>This direction is exciting. It’s energetic, youthful, nods to the past, and is a fresh take on Modernism. This direction does what it claims to do. The emoji may need some more work, but they’re still an awesome part of the direction.</p> <p>As far as the “we dropped the protocol from the URL bar” argument, this is a point that is more relevant for developers than the public at large. It’s a somewhat esoteric observation. Even if you were to accept the notion that kids in 5+ years won’t have any idea what that is referencing, the treatment still effective. The effect is not so much that it appropriates the protocol as it appropriates coding languages and web specific type treatments in general (that’s why the emoji work). I think that more and more kids will be learning coding as time goes on, and this reference will not be lost on them.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Nora Zimerman",
+    "date": "2016-09-20T00:00:00.000Z",
+    "content": "       <p>I’d tend to agree with Joel here. For the non-developer public (like me) this is a simple, obvious, fun solution. I says what it is without complications.<br> love it!</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Potch",
+    "date": "2016-09-19T00:00:00.000Z",
+    "content": "       <p>The block outline on the lettering really makes this for me. That said, it’s very opaque for people who aren’t familiar with the “protocol” symbolism, and lots of browsers are moving away from even showing the protocol portion of the URL!</p> <p>It appeals to me as tech geek, and typing “Moz://a” is fun, but it might be inaccessible to people who care about our organization for non-technical reasons (think advocacy, etc.)</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Aaron",
+    "date": "2016-09-19T00:00:00.000Z",
+    "content": "       <p>This is my second favorite. Probably even more so than the Dino. I think it just needs some refinement on the type. The “://” part of the wordmark should probably match the width of the rest of the mark, making it more cohesive. I feel like the emoticons is a great idea on the applications and should be used more, maybe even introducing some code lingo into applications too. Good stuff guys</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Brad Werth",
+    "date": "2016-09-19T00:00:00.000Z",
+    "content": "       <p>To me, this doesn’t seem to solve the problems of our current wordmark. I’m not a fan. If we do go with this, and want our customers to resonate the logo to the protocol in the browser bar, then it feels to me that we should use the same font that’s used in the browser to cement that connection.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Stephen Nixon",
+    "date": "2016-09-20T00:00:00.000Z",
+    "content": "       <p>===<br> Possible CSS bug: for me, the  containing the gif of letters swapping out has a height of 0 once the page loads, making it disappear. This happens for me in both Firefox and Chrome, which is a bummer, as it is one of my favorite aspects of this route. Maybe it’s a small glitch in your CSS? I think maybe a clearfix or something could help it? (screenshot attached)<br> ===</p> <p>I LOVE THIS. Flexible, just clever enough (but not too clever), looks dignified yet quirky. </p> <p>I think maybe it would be stronger if the color palette were limited just a tad … things start to look a little less bold and unified when secondary and tertiary colors are used, like magenta, cyan, and lavender. </p> <p>Somehow, the Lubalin type looks fresh and exciting to me in the wordmark but starts to feel a little more dated in the light use on merch, etc. Maybe it would be good to limit Lubalin to the wordmark, and use something like Fira for brand applications? After all, Lubalin won’t work well on web interfaces, and especially not in a light weight.</p> <p>Overall, I was excited enough seeing this that I had to leave a comment. Excited to see where it goes from here!</p> <div class=\"comment-image-box\"> <p class=\"comment-image-reloaded\"><a class=\"cir-image-link image-id-476\" href=\"https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/ScreenShot2016-09-20at8.48.21AM.png\"><img width=\"600\" height=\"410\" src=\"https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/opendesign/files/2016/09/ScreenShot2016-09-20at8.48.21AM-600x410.png\" class=\"attachment-baseline-mini-grid-thumb size-baseline-mini-grid-thumb\" alt=\"ScreenShot2016-09-20at8.48.21AM\" sizes=\"(max-width: 768px) 600px, (max-width: 1000px) 160px, 300px\"></a></p> </div>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "joe mama besser",
+    "date": "2016-09-20T00:00:00.000Z",
+    "content": "       <p>definitely the designer’s ‘aha!’ moment direction –&nbsp;and certainly very clever, but not yet visually resolved to be the basis of an identity system.<br> one interesting play could be to pull the :// asset out, rotate it 90° clockwise and use it as the god-dino-zilla character&nbsp;–&nbsp;colon is the eyes, slashes are the mouth. you’re welcome.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Steve Fink",
+    "date": "2016-09-20T00:00:00.000Z",
+    "content": "       <p>I generally like it. I think it’s a bit too uneven and would prefer a simpler font. I like the font changing goofiness. I dislike a plain “M:” as a short form; it does not suggests a connection to Mozilla (or the Web or anything else.)</p> <p>The fact that protocols’ visibility is declining doesn’t particularly bother me. It just means we’re associated with the unseen stuff that comprises the Web. And even if you’re someone who has never seen a protocol in a URI, there’s obviously *something* distinctive going on there, and that’s enough even if you don’t bother to find out what it is.</p> <p>I just wish it had a little more flash to it, like the flame.</p> <p>And given the “zilla” part of our name, I do kind of miss a tie-in to dinosaurs. (At least, the strength/dominance characteristics of dinosaurs.) But that’d be too much to pile into one thing, I suspect.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "stephanie",
+    "date": "2016-09-21T00:00:00.000Z",
+    "content": "       <p>definitely the best route – the others have no where near as much appeal….speaking from an outsiders perspective. It’s grown up but fun and relatable</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Enrico",
+    "date": "2016-09-21T00:00:00.000Z",
+    "content": "       <p>Protocol was my favourite from the first batch, and now it looks even better.</p> <p>I like the font choice: it’s most appropriate as a “protocol”. It’s a pity Fira doesn’t work that well, but I guess there’s not much to do about it…</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Martha",
+    "date": "2016-09-22T00:00:00.000Z",
+    "content": "       <p>I’m coming to this discussion late, but the fact that an web company’s logo is type-able is pure genius. I think the flexibility and relevance of this concept makes it the winner. Maybe M: could turn into a new protocol? Or at least some kind of viral marketing campaign.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Sebastian",
+    "date": "2016-09-23T00:00:00.000Z",
+    "content": "       <p>Still like Moz://a best. :) Makes me happy every time I can just type it down. I must say I almost liked the first iteration better. The gaudy colours are not my taste I must say. The uneven border takes some getting used to but I think it could work.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Jack",
+    "date": "2016-09-24T00:00:00.000Z",
+    "content": "       <p>This looks like a cool design. Simple and elegant. However, I would prefer lowercase M over the uppercase.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "alex b",
+    "date": "2016-09-24T00:00:00.000Z",
+    "content": "       <p>Hi, I think this route is the best, as it makes sense (with Internet). The fact that Moz://a is type-able is fun, but potentially confusing – how do we actually write it? Think of people that were not exposed to the brand. Apart from this problem, the logo is perfect, and the problem can be mitigated by NOT writing the name in this form ever, in text. Just use the logo in graphical form, and write the name normally in any text reference. </p> <p>Regarding the colors – the logo should use only one color – as brand color (think Coca Cola is red, Hertz is orange, IBM is blue). The color choice should be based on brand differentiation (not taste, some psychological association etc.) – use the color that’s not used by your competitors – just map them on a color wheel and choose from what’s left. Explorer (and Safari) are blue, so bye-bye blue. Chrome is rainbow, but you see red first (and Opera is red) so no red, too. But Firefox is orange, and orange is not used by anyone, so… keep the orange!</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Paal Dracup",
+    "date": "2016-09-25T00:00:00.000Z",
+    "content": "       <p>In my opinion, by far the better choice. It’s versatile and easily recreated in text form for those who should want to type it out. Brilliant; I like it a lot!</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Gonzalo Burnfield",
+    "date": "2016-09-26T00:00:00.000Z",
+    "content": "       <p>I think this is the best one, but I don’t like the typography, it’s just looks old, I liked more the original protocol.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Seburo",
+    "date": "2016-09-28T00:00:00.000Z",
+    "content": "       <p>Hi</p> <p>I love this concept! </p> <p>Its quirky, fun and flexible.  The colour palette feels bold, but also very clam.  Undecided whether I prefer the previous iteration of this one, I think that they both work well.</p> <p>The only (small) change I would make the statement text, it is too thin.  Whilst the statements may be bold, the typeface needs to be for people to easily read them.</p> <p>This is still my preferred option.  Keep up the great work.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "André Jaenisch (@Ryuno-Ki)",
+    "date": "2016-09-29T00:00:00.000Z",
+    "content": "       <p>I’m not a designer, so an update about the openness of the used font would be appreciated.</p> <p>As alex b stated in <a href=\"https://blog.mozilla.org/opendesign/route-one-protocol-2-0/#comment-2790\" rel=\"nofollow\">https://blog.mozilla.org/opendesign/route-one-protocol-2-0/#comment-2790</a> I’d welcome a suggestion with an other colour. I enjoy orange :-) Maybe reddish or browny.</p> <p>Lubalin looks too angular/edge to me. I’d prefer graphik super I think. The trailing “a” does not point outwards the wordmark … Its “o” looks like a donut though …</p> <p>This one is my favourite. In opposite to Dino 2.0 I can imagine it is applicable on different use cases: On websites, as FavIcon (which is, what many people will see of a website these days), on shirts and cups.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "Robert Kaiser",
+    "date": "2016-09-29T00:00:00.000Z",
+    "content": "       <p>This is clearly the #2 design for me (after the dino). I think even non-technical users will understand what it alludes to even if they don’t have to type those “weird” protocols usually – and it speaks to web literacy.</p> <p>The typeface(s) and color(s) IMHO still need work, I don’t think that the intense blue is a “Mozilla color”, but esp. the static outline with changing fonts and similar concepts sounds like an interesting path to follow.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  },
+  {
+    "name": "amanda",
+    "date": "2016-10-04T00:00:00.000Z",
+    "content": "       <p>Love it! It is own-able, iconic and relevant. Easily understood, bold and simple.</p>     ",
+    "event_type": "Mozilla Blog",
+    "source": "https://blog.mozilla.org/opendesign/route-one-protocol-2-0/"
+  }
+]
