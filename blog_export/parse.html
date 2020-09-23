@@ -9,18 +9,21 @@ path {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-css.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.js"></script>
 <script>
 var messages = [];
 var uniqueNames = [];
 var yScale;
 var rawData;
 $(document).ready(function(){
-var docName = "https://blog.mozilla.org/opendesign/roads-not-taken/"
+var docName = "https://blog.mozilla.org/opendesign/now-for-the-fun-part/"
 var source = docName;
         //$("#div1").load("chat_export/messages.html .forwarded", function(response, statusTxt, xhr){
-        $.get("https://cors.io/?"+source, function(response){
+        $.get("http://localhost:3004/?url="+source, function(response){
            rawData = response;
-           //console.log(rawData);
+           console.log(rawData);
             //if(statusTxt == "success"){
 
 
@@ -103,8 +106,12 @@ var source = docName;
                   default:
                 }
 
-                var fromDate = $(this).find("time").attr("datetime");
-                if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
+                //timezone for comments are Z, while timezone for comments from author are -7
+                //var fromDate = $(this).find("time").attr("datetime"); //
+                var fromDate = $(this).find("time").html();
+                if( fromDate ) date = fromDate.trim().slice(0, -1).replace(/\at /g,'');//.substr(1, 19); //.replace(/ /g,'');
+                //date = (name=="Tim Murray (@Timotay)") ? date + " -7" : date + " Z" // in some blogs the date does of a comment does nto match with the date of response from Tim
+
 
                 var fromText = $(this).find(".entry-content").html();
                 if (fromText) text = fromText.replace(/\n/g,' ');
@@ -147,7 +154,7 @@ var source = docName;
 
         $("button").click(function(){
 
-          download(JSON.stringify(messages), docName+".json", "text/plain");
+          download(js_beautify(JSON.stringify(messages), { indent_size: 2, space_in_empty_paren: true }), docName+".json", "text/plain");
 
           var width = 800;
           var height = 800;
