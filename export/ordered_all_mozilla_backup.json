@@ -1171,7 +1171,7 @@
     {
       "name": "Adriano Cupello",
       "date": "2016-06-20T21:14:10.000Z",
-      "content": "IMG-TELEGRAM",
+      "content": "<img href=\"/images/Telegram/photo@2016-06-20_21-14-10.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -1248,7 +1248,7 @@
     {
       "name": "André Jaenisch (@Ryuno-Ki)",
       "date": "2016-06-21T05:47:59.001Z",
-      "content": "Re: IMG-TELEGRAM",
+      "content": "Re: <p><img href=\"/images/Telegram/photo@2016-06-20_21-14-10.jpg\" /></p>",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -1542,7 +1542,7 @@
     {
       "name": "Jan Bambach",
       "date": "2016-06-21T20:11:21.000Z",
-      "content": "IMG-TELEGRAM 02",
+      "content": "<img href=\"/images/Telegram/photo@2016-06-21_20-11-21.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -2333,7 +2333,7 @@
     {
       "name": "Amadej HP",
       "date": "2016-06-26T14:13:20.000Z",
-      "content": "IMG-TELEGRAM",
+      "content": "[File: Mozilla_hackathon1.2.png] <img href=\"/images/Telegram/Mozilla_hackathon1.2.png\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -2928,7 +2928,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2016-06-27T20:52:13.000Z",
-      "content": "[FILE SHARED: Horizontal.svg]",
+      "content": "[File: Horizontal.svg] <img href=\"/images/Telegram/Horizontal.svg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -3509,7 +3509,7 @@
     {
       "name": "Daniele Mte90 Scasciafratte 🇮🇹",
       "date": "2016-07-09T14:47:06.000Z",
-      "content": "[IMG-SHARED]",
+      "content": "[File: mpItalyLogo-small.png] <img href=\"/images/Telegram/mpItalyLogo-small.png\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -3915,7 +3915,7 @@
     {
       "name": "Amadej HP",
       "date": "2016-07-14T17:38:47.000Z",
-      "content": "[IMAGE-SHARED]",
+      "content": "[File: logo1.2.png]  <img href=\"/images/Telegram/logo1.2.png\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -9228,7 +9228,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2016-08-20T20:52:37.000Z",
-      "content": "[IMAGE-SHARED]",
+      "content": "<img href=\"/images/Telegram/photo@2016-08-20_20-52-37.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -16725,7 +16725,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2016-09-16T21:18:54.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2016-09-16_21-18-54.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -16739,7 +16739,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2016-09-16T21:55:11.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2016-09-16_21-55-11.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -19560,7 +19560,7 @@
     {
       "name": "Yofie Setiawan (@yofiesetiawan)",
       "date": "2017-01-18T17:36:41.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-01-18_17-36-41.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -19581,7 +19581,7 @@
     {
       "name": "Yofie Setiawan (@yofiesetiawan)",
       "date": "2017-01-18T17:36:56.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-01-18_17-36-56.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -19679,7 +19679,7 @@
     {
       "name": "Yofie Setiawan (@yofiesetiawan)",
       "date": "2017-01-18T18:03:04.000Z",
-      "content": "[SHARE-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-01-18_18-03-04.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -19735,7 +19735,7 @@
     {
       "name": "Tripad",
       "date": "2017-01-18T18:21:00.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "[😂 Sticker]",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -19973,7 +19973,7 @@
     {
       "name": "Tripad",
       "date": "2017-01-19T11:37:07.000Z",
-      "content": "[SHARED-FILE: moz-wordmark-dark-reverse.2cbc28bb9895.pnd]",
+      "content": "[File: moz-wordmark-dark-reverse.2cbc28bb9895.pnd]",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -20057,14 +20057,14 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2017-01-19T18:19:52.001Z",
-      "content": "Elio Qoshi changed group photo",
+      "content": "Elio Qoshi updated group photo",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2017-01-19T18:19:52.002Z",
-      "content": "[IMAGE]",
+      "content": "<img href=\"/images/Telegram/GroupPhoto.jpeg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -20141,7 +20141,7 @@
     {
       "name": "Edoardo Viola",
       "date": "2017-01-20T19:01:50.000Z",
-      "content": "[SHARED-FILE: TextShortVer0-01.png]",
+      "content": "[File: TextShortVer2-01.png] <img href=\"/images/Telegram/TextShortVer2-01.png\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -20463,7 +20463,7 @@
     {
       "name": "Yofie Setiawan (@yofiesetiawan)",
       "date": "2017-02-07T16:51:24.000Z",
-      "content": "[SHARED-FILE: favicon.ico]",
+      "content": "[File: favicon.ico] <img href=\"/images/Telegram/favicon.ico\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -20554,28 +20554,28 @@
     {
       "name": "Edoardo Viola",
       "date": "2017-02-14T20:12:59.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-14_20-12-59-00.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Edoardo Viola",
       "date": "2017-02-14T20:12:59.001Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-14_20-12-59-01.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Edoardo Viola",
       "date": "2017-02-14T20:13:00.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-14_20-13-00.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Edoardo Viola",
       "date": "2017-02-14T20:13:02.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-14_20-13-02.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -21757,15 +21757,15 @@
     },
     {
       "name": "Edoardo Viola",
-      "date": "2017-02-21T16:45:35.000Z",
-      "content": "What do you think about that?",
+      "date": "2017-02-21T16:45:57.000Z",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-21_16-45-57.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Edoardo Viola",
-      "date": "2017-02-21T16:45:57.000Z",
-      "content": "[SHARED-IMAGE]",
+      "date": "2017-02-21T16:46:00.000Z",
+      "content": "What do you think about that?",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -21828,7 +21828,7 @@
     {
       "name": "Edoardo Viola",
       "date": "2017-02-21T17:34:17.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-21_17-34-17.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -21868,9 +21868,9 @@
       "source": "https://blog.mozilla.org/opendesign/arrival/"
     },
     {
-      "name": "Edoardo Viola",
+      "name": "Elio Qoshi (@elioqoshi)",
       "date": "2017-02-22T13:19:24.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-22_13-19-24.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -21905,14 +21905,14 @@
     {
       "name": "Geraldo Barros (@barrosgeraldo)",
       "date": "2017-02-22T17:49:59.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-22_17-49-59.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
     {
       "name": "Geraldo Barros (@barrosgeraldo)",
       "date": "2017-02-22T17:50:02.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-02-22_17-50-02.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -22142,8 +22142,8 @@
     },
     {
       "name": "Aastha",
-      "date": "2017-03-11T02:45:53.001Z",
-      "content": "[SHARED-IMAGE]",
+      "date": "2017-03-11T02:45:53.000Z",
+      "content": "<img href=\"/images/Telegram/photo@2017-03-11_02-45-53.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -22157,7 +22157,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2017-04-23T09:14:53.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-04-23_09-14-53.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
@@ -22171,7 +22171,7 @@
     {
       "name": "Elio Qoshi (@elioqoshi)",
       "date": "2017-04-23T09:24:41.000Z",
-      "content": "[SHARED-IMAGE]",
+      "content": "<img href=\"/images/Telegram/photo@2017-04-23_09-24-41.jpg\" />",
       "event_type": "Telegram chat",
       "source": "https://t.me/opendesign"
     },
