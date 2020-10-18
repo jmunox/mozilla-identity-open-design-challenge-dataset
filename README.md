@@ -11,8 +11,8 @@ I am still working on the visualization of the flow of interactions.
 #### File structure.
 
 The folder '[/dist](https://github.com/jmunox/mozilla-identity-open-design-challenge/tree/master/dist)' contains the .json file with parsed data.
-- The file "ordered_all_mozilla.json" contains all the collected data, ordered by date of the interaction.
-- The folder "files" contains the files that were shared via Telegram shared files and that can only be accessed through the Telegram client.
+- The file "mozilla.json" contains all the collected data, ordered by date of the interaction.
+- The folder "images/Telegram" contains the files that were shared via Telegram shared files and that can only be accessed through the Telegram client.
 
 The folder '[/data-extraction](https://github.com/jmunox/mozilla-identity-open-design-challenge/tree/master/data-extraction)' contains all the process for collecting and structuring all the data.
 - The subfolders per step that transformed the data. Resulting in a set of files per platform/communication channels (Telegram, Blog post, Discourse, Vidyo/etherpad, GitHub)
