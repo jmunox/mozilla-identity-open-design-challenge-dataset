@@ -32,4 +32,4 @@ The folder '[/data-extraction](https://github.com/jmunox/mozilla-identity-open-d
 
 ### Visualization:
 
-Example of a simple visualization: ![Simple visualization of the interactions](/tree/master/data-extraction/04-visualizing/visualization_interactions_mozilla_design_process.png)
+Example of a simple visualization: ![Simple visualization of the interactions](visualization_interactions_mozilla_design_process.png)
