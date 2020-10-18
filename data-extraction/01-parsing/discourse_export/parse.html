@@ -15,32 +15,34 @@ var uniqueNames = [];
 var yScale;
 var rawData;
 $(document).ready(function(){
-var docName = "https://discourse.mozilla.org/t/shape-the-future-of-the-mozilla-brand-mozilla-re-branding-challenge/7522"
-var source = docName;
+  var docName = "https://discourse.mozilla.org/t/weekly-call-22-09-2016/11016"
+  var source = docName;
         //$("#div1").load("chat_export/messages.html .forwarded", function(response, statusTxt, xhr){
-        $.get("https://cors.io/?"+docName, function(response){
+        $.get("discourse-general.html", function(response){
+          // using https://github.com/jmunox/simple-cors-proxy
+        //$.get("http://localhost:4321/?url="+docName, function(response){
            rawData = response;
-           //console.log(rawData);
+           console.log(rawData);
             //if(statusTxt == "success"){
-            //var docHTML= $(rawData).html()
+
 
               var name = null;
               var initials = null;
               var date = null;
               var text = null;
               //$(".forwarded").each(function(index){
-              //$(rawData).find(".topic-post").each(function(index){
+              $(rawData).find(".topic-post").each(function(index){
 
                 // var fromInitials = $(this).find(".initials").text();
                 // if (fromInitials) {
                 //   initials = fromInitials.replace(/(\n| )/g,'');
                 // }
 
-                console.log($(rawData).find("article").text());
+                console.log($(this).find("article").text());
 
-                var fromName = $(rawData).find(".full-name").text();
+                var fromName = $(this).find(".username").text();
                 if( fromName) name = fromName//.replace(/\n/g,'');
-                console.log(name);
+
                 switch (name) {
                   case "Tim Murray": name = "Tim Murray (@Timotay)";
                     break;
@@ -52,6 +54,8 @@ var source = docName;
                     break;
                   case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
                     break;
+                  case "Lucyeoh": name = "Lucy Harris (@LucyeoH)";
+                    break;
                   case "Ryuno-Ki": name = "André Jaenisch (@Ryuno-Ki)";
                     break;
                   case "André Jaenisch": name = "André Jaenisch (@Ryuno-Ki)";
@@ -61,20 +65,22 @@ var source = docName;
                   case "Ioana 👩‍💻 🙌 ": name = "Ioana Chiorean (@ioana-chiorean)";
                     break;
                   case "Ioana": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
+                  break;
+                  case "Chiorean Ioana": name = "Ioana Chiorean (@ioana-chiorean)";
+                  break;
                   default:
                 }
 
-                var fromDate = $(rawData).find(".relative-date").attr("data-time");
+                var fromDate = $(this).find(".relative-date").attr("data-time");
                 if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
 
-                var fromText = $(rawData).find(".cooked").html();
+                var fromText = $(this).find(".cooked").html();
                 if (fromText) text = fromText.replace(/\n/g,'');
 
                 if (text){
 
                   var pattern = /(\d{2})\.(\d{2})\.(\d{4})/;
-                  var dt = new Date(date)//.replace(pattern,'$3-$2-$1'));
+                  var dt = new Date(parseInt(date))//.replace(pattern,'$3-$2-$1'));
 
                   messages.push( {
                     name: name,
@@ -85,11 +91,63 @@ var source = docName;
                   });
                   text = null;
                 }
-              //});
+              });
 
 
 
               console.log(messages);
+            //  });
+
+
+              $(rawData).find(".comment").each(function(index){
+
+                // var fromInitials = $(this).find(".initials").text();
+                // if (fromInitials) {
+                //   initials = fromInitials.replace(/(\n| )/g,'');
+                // }
+
+                var fromName = $(this).find(".author")[0];
+                if( fromName) name = fromName.childNodes[0].textContent//.replace(/(\n| )/g,'');
+
+                switch (name) {
+                  case "Tim Murray": name = "Tim Murray (@Timotay)";
+                    break;
+                  case "Timotay": name = "Tim Murray (@Timotay)";
+                    break;
+                  case "elioqoshi": name = "Elio Qoshi (@elioqoshi)";
+                    break;
+                  case "Elio Qoshi": name = "Elio Qoshi (@elioqoshi)";
+                    break;
+                  case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
+                    break;
+                  default:
+                }
+
+                var fromDate = $(this).find("time").attr("datetime");
+                if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
+
+                var fromText = $(this).find(".entry-content").html();
+                if (fromText) text = fromText.replace(/\n/g,' ');
+
+                if (text){
+
+                  var pattern = /(\d{2})\.(\d{2})\.(\d{4})/;
+                  var dt = new Date(date)//.replace(pattern,'$3-$2-$1'));
+
+                  messages.push( {
+                    name: name,
+                    date: dt,
+                    content: text,
+                    event_type: 'Mozilla Blog',
+                    source: source
+                  });
+                  text = null;
+                }
+              });
+
+              console.log(messages);
+
+
 
 
 
@@ -107,11 +165,9 @@ var source = docName;
           a.click();
         }
 
-
         $("button").click(function(){
 
           download(JSON.stringify(messages), docName+".json", "text/plain");
-
 
           var width = 800;
           var height = 800;

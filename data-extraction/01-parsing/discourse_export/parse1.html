@@ -9,42 +9,41 @@ path {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-css.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.js"></script>
 <script>
 var messages = [];
 var uniqueNames = [];
 var yScale;
 var rawData;
 $(document).ready(function(){
-var docName = "https://blog.mozilla.org/opendesign/now-for-the-fun-part/"
+var docName = "https://discourse.mozilla.org/t/shape-the-future-of-the-mozilla-brand-mozilla-re-branding-challenge/7522"
 var source = docName;
         //$("#div1").load("chat_export/messages.html .forwarded", function(response, statusTxt, xhr){
-        $.get("http://localhost:3004/?url="+source, function(response){
+        //"https://cors.io/?" //not working anymore
+        // using https://github.com/jmunox/simple-cors-proxy
+        $.get("http://localhost:4321/?url="+docName, function(response){
            rawData = response;
-           console.log(rawData);
+           //console.log(rawData);
             //if(statusTxt == "success"){
-
+            //var docHTML= $(rawData).html()
 
               var name = null;
               var initials = null;
               var date = null;
               var text = null;
               //$(".forwarded").each(function(index){
-              //$(rawData).find(".post").each(function(index){
+              //$(rawData).find(".topic-post").each(function(index){
 
                 // var fromInitials = $(this).find(".initials").text();
                 // if (fromInitials) {
                 //   initials = fromInitials.replace(/(\n| )/g,'');
                 // }
 
-                var fromName = $(rawData).find(".author")[0];
-                if( fromName) name = fromName.childNodes[0].textContent//.replace(/(\n| )/g,'');
+                console.log($(rawData).find("article").text());
 
+                var fromName = $(rawData).find(".full-name").text();
+                if( fromName) name = fromName//.replace(/\n/g,'');
+                console.log(name);
                 switch (name) {
-                  case "TimMurray": name = "Tim Murray (@Timotay)";
-                    break;
                   case "Tim Murray": name = "Tim Murray (@Timotay)";
                     break;
                   case "Timotay": name = "Tim Murray (@Timotay)";
@@ -55,14 +54,23 @@ var source = docName;
                     break;
                   case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
                     break;
+                  case "Ryuno-Ki": name = "André Jaenisch (@Ryuno-Ki)";
+                    break;
+                  case "André Jaenisch": name = "André Jaenisch (@Ryuno-Ki)";
+                    break;
+                  case "ioana-chiorean": name = "Ioana Chiorean (@ioana-chiorean)";
+                    break;
+                  case "Ioana 👩‍💻 🙌 ": name = "Ioana Chiorean (@ioana-chiorean)";
+                    break;
+                  case "Ioana": name = "Ioana Chiorean (@ioana-chiorean)";
+                    break;
                   default:
-
                 }
 
-                var fromDate = $(rawData).find("time").attr("datetime");
+                var fromDate = $(rawData).find(".relative-date").attr("data-time");
                 if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
 
-                var fromText = $(rawData).find(".entry-content").html();
+                var fromText = $(rawData).find(".cooked").html();
                 if (fromText) text = fromText.replace(/\n/g,'');
 
                 if (text){
@@ -74,67 +82,16 @@ var source = docName;
                     name: name,
                     date: dt,
                     content: text,
-                    event_type: 'Mozilla Blog',
+                    event_type: 'Discourse',
                     source: source
                   });
                   text = null;
                 }
-            //  });
+              //});
 
 
-              $(rawData).find(".comment").each(function(index){
-
-                // var fromInitials = $(this).find(".initials").text();
-                // if (fromInitials) {
-                //   initials = fromInitials.replace(/(\n| )/g,'');
-                // }
-
-                var fromName = $(this).find(".author")[0];
-                if( fromName) name = fromName.childNodes[0].textContent//.replace(/(\n| )/g,'');
-
-                switch (name) {
-                  case "Tim Murray": name = "Tim Murray (@Timotay)";
-                    break;
-                  case "Timotay": name = "Tim Murray (@Timotay)";
-                    break;
-                  case "elioqoshi": name = "Elio Qoshi (@elioqoshi)";
-                    break;
-                  case "Elio Qoshi": name = "Elio Qoshi (@elioqoshi)";
-                    break;
-                  case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
-                    break;
-                  default:
-                }
-
-                //timezone for comments are Z, while timezone for comments from author are -7
-                //var fromDate = $(this).find("time").attr("datetime"); //
-                var fromDate = $(this).find("time").html();
-                if( fromDate ) date = fromDate.trim().slice(0, -1).replace(/\at /g,'');//.substr(1, 19); //.replace(/ /g,'');
-                //date = (name=="Tim Murray (@Timotay)") ? date + " -7" : date + " Z" // in some blogs the date does of a comment does nto match with the date of response from Tim
-
-
-                var fromText = $(this).find(".entry-content").html();
-                if (fromText) text = fromText.replace(/\n/g,' ');
-
-                if (text){
-
-                  var pattern = /(\d{2})\.(\d{2})\.(\d{4})/;
-                  var dt = new Date(date)//.replace(pattern,'$3-$2-$1'));
-
-                  messages.push( {
-                    name: name,
-                    date: dt,
-                    content: text,
-                    event_type: 'Mozilla Blog',
-                    source: source
-                  });
-                  text = null;
-                }
-              });
 
               console.log(messages);
-
-
 
 
 
@@ -152,9 +109,11 @@ var source = docName;
           a.click();
         }
 
+
         $("button").click(function(){
 
-          download(js_beautify(JSON.stringify(messages), { indent_size: 2, space_in_empty_paren: true }), docName+".json", "text/plain");
+          download(JSON.stringify(messages), docName+".json", "text/plain");
+
 
           var width = 800;
           var height = 800;

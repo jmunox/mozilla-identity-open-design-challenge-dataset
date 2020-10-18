@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-path {
-	fill: none;
-	stroke: #999;
-}
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script>
 var uniqueNames = [];
-var yScale;
-var mozillaData;
+var yScale, xScale;
+var mozillaData =[];
 $(document).ready(function(){
 
-        $.get("export/ordered_all_mozilla.json", function(response){
+        $.get("/data-extraction/ordered_all_mozilla.json", function(response){
           mozillaData = response;
 
             //if(statusTxt == "success"){
 
 
+
               console.log(mozillaData);
 
 
+
+            //}
+            //if(statusTxt == "error")
+            //    alert("Error: " + xhr.status + ": " + xhr.statusText);
         });
 
         $("button").click(function(){
 
-
-          var width = 800;
-          var height = 800;
-          const svg = d3.select("svg");
+          var width = 900;
+          var height = 1000;
 
 
-          var extent = d3.extent(mozillaData.map(obj => obj.date));
+
+          var extent = d3.extent(mozillaData.map(obj => new Date(obj.date)));
 
 
-          const xScale = d3.scaleTime()
-            //.domain([new Date(messages[0].date), new Date(messages[length].date )])
+          xScale = d3.scaleTime()
+            //.domain([new Date(mozillaData[0].date), new Date(mozillaData[length].date )])
             .domain(extent)
             .range([0,width]);
 
@@ -52,6 +50,7 @@ $(document).ready(function(){
               function count(arr) {
                 return arr.reduce((prev, curr) => (prev[curr] = ++prev[curr] || 1, prev), {})
               }
+      d3.select("svg").attr('height', uniqueNames.length*22);
 
 
     d3.select('#points')
@@ -60,7 +59,7 @@ $(document).ready(function(){
   	.enter()
   	.append('circle')
   	.attr('r', function(d){
-       return count(mozillaData.map(obj => obj.date))[d.date];
+       return 2;//count(mozillaData.map(obj => obj.date))[d.date]*3;
     })
   	.attr('cy', function(d) {
   		return yScale(d.name);
@@ -68,28 +67,28 @@ $(document).ready(function(){
       //);
   	})
   	.attr('cx', function(d) {
-  		return xScale(d.date);
+  		return xScale(new Date(d.date));
   	});
 
 
-  var lineGenerator = d3.line()
-  	.x(function(d) {
-  		return xScale(d.date);
-  	})
-  	.y(function(d) {
-  		return yScale(d.name);
-  	});
-
-    var line = lineGenerator(mozillaData);
-
-    d3.select('path')
-    .attr('d', line);
+  // var lineGenerator = d3.line()
+  // 	.x(function(d) {
+  // 		return xScale(new Date(d.date));
+  // 	})
+  // 	.y(function(d) {
+  // 		return yScale(d.name);
+  // 	});
+  //
+  //   var line = lineGenerator(mozillaData);
+  //
+  //   d3.select('path')
+  //   .attr('d', line);
 
 
 
   // d3.select('#points')
   // 	.selectAll('text')
-  // 	.data(messages)
+  // 	.data(mozillaData)
   // 	.enter()
   // 	.append('text')
   // 	.attr('x', function(d,i) {
@@ -97,40 +96,52 @@ $(document).ready(function(){
   // 		return xScale(d.date);
   // 	})
   //   .attr('y', function(d) {
-  //     return yScale(d.initials);
+  //     return yScale(d.name);
   // 	})
   // 	.text(function(d) {
-  // 		return d.date.toDateString();
+  // 		return d.name;
   // 	});
 
-//messages.map(obj => obj.initials)
+//mozillaData.map(obj => obj.name)
 
-var axis = d3.axisTop().scale(xScale)
+var axisX = d3.axisTop().scale(xScale)
       .tickFormat(function(d) {
         return d.toDateString();
       })
       .ticks(7);
 
       d3.select('#x_axis')
-      .attr("transform", "translate(0," + height + ")")
-       .call(axis);
-  });
+      .attr("transform", "translate(0, -10)")
+       .call(axisX);
+
+  var axisY = d3.axisRight().scale(yScale)
+        .tickFormat(function(d) {
+          return d;
+        })
+        .ticks(1);
+
+        d3.select('#y_axis')
+        .attr("transform", "translate(" + width + ", 0)")
+         .call(axisY);
+    });
 
 });
 </script>
 </head>
 <body>
 
-<div id="div1">Export</div>
+<div id="div1">Mozilla New Identity Design Challenge</div>
 
-<button>Load Chat Content</button>
+<button>Load Chart Content</button>
 <div>
-  <svg width="1000" height="1000">
+  <svg width="1200" height="4000">
+
    	<g id="wrapper" transform="translate(40, 40)">
+      <g id="x_axis"></g>
+      <g id="y_axis"></g>
       <g id="points"></g>
       <path></path>
-      <g id="x_axis"></g>
-      <g id="y_axis" transform="translate(40, 40)"></g>
+
    	</g>
    </svg>
 </div>

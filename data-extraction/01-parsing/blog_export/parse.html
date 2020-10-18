@@ -9,19 +9,22 @@ path {
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-css.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify-html.js"></script>
 <script>
 var messages = [];
 var uniqueNames = [];
 var yScale;
-var rawData = {};
+var rawData;
 $(document).ready(function(){
-var docName = "https://github.com/mozilla/OpenDesign/issues/84"
+var docName = "https://blog.mozilla.org/opendesign/now-for-the-fun-part/"
 var source = docName;
         //$("#div1").load("chat_export/messages.html .forwarded", function(response, statusTxt, xhr){
-        $.get("https://cors.io/?"+source, function(response){
-        //$.get("https://cors-anywhere.herokuapp.com/"+source, function(response){
+        // using https://github.com/jmunox/simple-cors-proxy
+        $.get("http://localhost:4321/?url="+source, function(response){
            rawData = response;
-
+           console.log(rawData);
             //if(statusTxt == "success"){
 
 
@@ -30,17 +33,19 @@ var source = docName;
               var date = null;
               var text = null;
               //$(".forwarded").each(function(index){
-              $(rawData).find(".comment").each(function(index){
+              //$(rawData).find(".post").each(function(index){
 
                 // var fromInitials = $(this).find(".initials").text();
                 // if (fromInitials) {
                 //   initials = fromInitials.replace(/(\n| )/g,'');
                 // }
 
-                var fromName = $(this).find(".author")[0];
-                if( fromName) name = fromName.childNodes[0].textContent.replace(/\n/g,'');
+                var fromName = $(rawData).find(".author")[0];
+                if( fromName) name = fromName.childNodes[0].textContent//.replace(/(\n| )/g,'');
 
                 switch (name) {
+                  case "TimMurray": name = "Tim Murray (@Timotay)";
+                    break;
                   case "Tim Murray": name = "Tim Murray (@Timotay)";
                     break;
                   case "Timotay": name = "Tim Murray (@Timotay)";
@@ -51,23 +56,14 @@ var source = docName;
                     break;
                   case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
                     break;
-                  case "Ryuno-Ki": name = "André Jaenisch (@Ryuno-Ki)";
-                    break;
-                  case "André Jaenisch": name = "André Jaenisch (@Ryuno-Ki)";
-                    break;
-                  case "ioana-chiorean": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
-                  case "Ioana 👩‍💻 🙌 ": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
-                  case "Ioana": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
                   default:
+
                 }
 
-                var fromDate = $(this).find("relative-time").attr("datetime");
+                var fromDate = $(rawData).find("time").attr("datetime");
                 if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
 
-                var fromText = $(this).find(".comment-body").html();
+                var fromText = $(rawData).find(".entry-content").html();
                 if (fromText) text = fromText.replace(/\n/g,'');
 
                 if (text){
@@ -79,23 +75,23 @@ var source = docName;
                     name: name,
                     date: dt,
                     content: text,
-                    event_type: 'GitHub open issue',
+                    event_type: 'Mozilla Blog',
                     source: source
                   });
                   text = null;
                 }
-              });
+            //  });
 
 
-              $(rawData).find(".discussion-item").each(function(index){
+              $(rawData).find(".comment").each(function(index){
 
                 // var fromInitials = $(this).find(".initials").text();
                 // if (fromInitials) {
                 //   initials = fromInitials.replace(/(\n| )/g,'');
                 // }
 
-                var fromName = $(this).find(".author").text();
-                if( fromName) name = fromName; //!fromName[0].text() ? fromName[0].text() : fromName.text();//.childNodes[0].textContent.replace(/\n/g,'');
+                var fromName = $(this).find(".author")[0];
+                if( fromName) name = fromName.childNodes[0].textContent//.replace(/(\n| )/g,'');
 
                 switch (name) {
                   case "Tim Murray": name = "Tim Murray (@Timotay)";
@@ -108,23 +104,17 @@ var source = docName;
                     break;
                   case "LucyeoH": name = "Lucy Harris (@LucyeoH)";
                     break;
-                  case "Ryuno-Ki": name = "André Jaenisch (@Ryuno-Ki)";
-                    break;
-                  case "André Jaenisch": name = "André Jaenisch (@Ryuno-Ki)";
-                    break;
-                  case "ioana-chiorean": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
-                  case "Ioana 👩‍💻 🙌 ": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
-                  case "Ioana": name = "Ioana Chiorean (@ioana-chiorean)";
-                    break;
                   default:
                 }
 
-                var fromDate = $(this).find("relative-time").attr("datetime");
-                if( fromDate ) date = fromDate;//.substr(1, 19); //.replace(/ /g,'');
+                //timezone for comments are Z, while timezone for comments from author are -7
+                //var fromDate = $(this).find("time").attr("datetime"); //
+                var fromDate = $(this).find("time").html();
+                if( fromDate ) date = fromDate.trim().slice(0, -1).replace(/\at /g,'');//.substr(1, 19); //.replace(/ /g,'');
+                //date = (name=="Tim Murray (@Timotay)") ? date + " -7" : date + " Z" // in some blogs the date does of a comment does nto match with the date of response from Tim
 
-                var fromText = $(this).find("h3").text();
+
+                var fromText = $(this).find(".entry-content").html();
                 if (fromText) text = fromText.replace(/\n/g,' ');
 
                 if (text){
@@ -136,7 +126,7 @@ var source = docName;
                     name: name,
                     date: dt,
                     content: text,
-                    event_type: 'GitHub open issue',
+                    event_type: 'Mozilla Blog',
                     source: source
                   });
                   text = null;
@@ -165,8 +155,7 @@ var source = docName;
 
         $("button").click(function(){
 
-          download(JSON.stringify(messages), docName+".json", "text/plain");
-
+          download(js_beautify(JSON.stringify(messages), { indent_size: 2, space_in_empty_paren: true }), docName+".json", "text/plain");
 
           var width = 800;
           var height = 800;

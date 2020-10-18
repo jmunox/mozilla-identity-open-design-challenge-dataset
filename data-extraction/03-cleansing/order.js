@@ -2,11 +2,11 @@
 const fs = require('fs');
 const beautify = require('js-beautify').js;
 
-fs.readFile('export/all_mozilla.json', 'utf8', function(err, contents) {
+fs.readFile('all_mozilla.json', 'utf8', function(err, contents) {
     console.log(contents.length);
 });
 
-let allData = fs.readFileSync('export/all_mozilla.json');
+let allData = fs.readFileSync('all_mozilla.json');
 let orderedData = JSON.parse(allData);
 
 orderedData.sort(function(a, b) {

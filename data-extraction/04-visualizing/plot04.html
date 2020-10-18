@@ -9,7 +9,7 @@ var yScale, xScale;
 var mozillaData =[];
 $(document).ready(function(){
 
-        $.get("export/ordered_all_mozilla.json", function(response){
+        $.get("/data-extraction/ordered_all_mozilla.json", function(response){
           mozillaData = response;
 
             //if(statusTxt == "success"){
@@ -133,7 +133,7 @@ var axisX = d3.axisTop().scale(xScale)
 
 <div id="div1">Mozilla New Identity Design Challenge</div>
 
-<button>Load Chart Content</button>
+<button>Show plot</button>
 <div>
   <svg width="1200" height="4000">
 
